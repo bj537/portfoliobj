@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // Check if we're not already on home.html
+        if (!window.location.pathname.includes('home.html')) {
+            window.location.href = 'home.html';
+        }
+    </script>
+</head>
+<body>
+    <div id="app">
+        <!-- Content will be loaded here -->
+    </div>
+    <script src="components.js"></script>
+</body>
+</html> 
